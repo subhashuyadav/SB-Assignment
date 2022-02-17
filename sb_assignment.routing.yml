@@ -1,0 +1,7 @@
+sb_assignment.timezone_configuration:
+  path: 'admin/sb-timezone'
+  defaults:
+    _form: '\Drupal\sb_assignment\Form\TimezoneConfigForm'
+    _title: 'Timezone Configuration'
+  requirements:
+    _permission: 'access content'

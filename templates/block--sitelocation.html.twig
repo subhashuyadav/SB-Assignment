@@ -1,0 +1,12 @@
+<div id="block-sitelocation">
+  {% for key, value in data %}
+    <div class="site-location-{{ key }}">
+      <span class="site-location-label">
+        {{ key|capitalize }} :
+      </span>
+      <span class="site-location-value">
+        {{ value }}
+      </span>
+    </div>
+  {% endfor %}
+</div>

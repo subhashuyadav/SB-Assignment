@@ -1,0 +1,5 @@
+sb_assignment.timezone_configuration_form:
+  title: 'SB Timezone Configuration'
+  route_name: sb_assignment.timezone_configuration
+  description: 'Set SB Timezone'
+  parent: system.admin

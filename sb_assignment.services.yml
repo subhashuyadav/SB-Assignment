@@ -1,0 +1,4 @@
+services:
+  sb_assignment.timezone:
+    class: Drupal\sb_assignment\TimezoneService
+    arguments: ['@config.factory', '@date.formatter', '@datetime.time']

@@ -1,0 +1,6 @@
+name: 'Specbee Assignment'
+type: module
+description: 'Adds a block to display time based on timezone.'
+package: Custom
+version: 1.0
+core_version_requirement: ^9
